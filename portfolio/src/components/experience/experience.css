@@ -1,5 +1,5 @@
 .experience__container{
-    dislay: grid;
+   display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -10,6 +10,10 @@
     border: 1px solid transparent;
     transition: var(--transition) ;
 
+}
+.experience__frontend{
+   left:50%;
+   transform: translateX(50%);
 }
 .experience__container >div:hover{
     border-color: var(--color-primary-variant);
@@ -55,6 +59,10 @@
     .experience__content{
         padding: 1rem;
     }
+    .experience__frontend{
+        left:0;
+        transform: translateX(0);
+     }
    
    }
    
@@ -69,6 +77,10 @@
         padding: 2rem 1rem;
         width: 80%;
     }
+    .experience__frontend{
+        left:0;
+        transform: translateX(0);
+     }
    
 
    }
