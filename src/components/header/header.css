@@ -67,6 +67,9 @@ header{
    font-size:0.9rem;
    font-weight: 300;
 }
+.text-invisible{
+    visibility: hidden;
+}
 
 
 /* =================MEDIA QUERIES (MEDIUM DEVICES)===============*/
