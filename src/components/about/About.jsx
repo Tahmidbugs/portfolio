@@ -41,7 +41,7 @@ const About = () => {
           </article>
         </div>
         <p>
-          Hello there! I am a Junior at the University of South Florida majoring in Computer Science. I am currently working as a TA for the Computer Science department. I starve for new knowledge in the realm of programming. I like cats and I am currently on the lookout for summer scholarships.
+          Hello there! My name is Tahmid and I like cats...Now that we are done with the important bit, I am a Junior at the University of South Florida majoring in Computer Science. I am currently working as a TA for Program Design at USF. I starve for new knowledge in the realm of programming and I am currently on the lookout for summer internships.
         </p>
         <a href="#contact" className='btn btn-primary'>Let's Chat</a>
       </div>
