@@ -1,6 +1,6 @@
 import React from 'react'
 import './clubs.css'
-import { Pagination } from 'swiper';
+import { Pagination, Autoplay } from 'swiper';
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -57,9 +57,12 @@ const Clubs = () => {
      <h2>Clubs and Activities</h2>
 
      <Swiper className="container clubs__container"
-    modules={[Pagination]} spaceBetween={40}
+    modules={[Pagination, Autoplay]} spaceBetween={40}
     slidesPerView={1}
-    pagination={{clickable:true}}>
+    pagination={{clickable:true}}
+    autoplay={{delay: 1500}}
+
+    >
         {
             data.map((d) => {
                 return (
