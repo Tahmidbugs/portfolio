@@ -11,12 +11,11 @@
     list-style: none;
     text-decoration: none;
 }
-
 :root{
-    --color-bg:#1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-bg: #1f1f38;
+    --color-bg-variant: #39383D;
+    --color-primary: black;
+    --color-primary-variant: #82808A;
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
@@ -27,7 +26,37 @@
 
     --transition: all 400ms ease;
 
+}
+.dark{
+    --color-bg: rgb(3, 1, 1);
+    --color-bg-variant: black;
+    --color-primary: black;
+    --color-primary-variant: #82808A;
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
 
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+
+    --transition: all 400ms ease;
+}
+
+.light{
+    --color-bg: #1f1f38;
+    --color-bg-variant: #39383D;
+    --color-primary: #898282;
+    --color-primary-variant: #82808A;
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+
+    --transition: all 400ms ease;
 }
 
 html{
@@ -38,10 +67,17 @@ html{
    display: none;
 }
 
-body{
+ body{
     font-family: 'Poppins',sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
+    line-height: 1.7;
+    background-image: url(../src/assets/bg-texture.png);
+}
+.dark body{
+    font-family: 'Poppins',sans-serif;
+    background: black;
+    color: red;
     line-height: 1.7;
     background-image: url(../src/assets/bg-texture.png);
 }

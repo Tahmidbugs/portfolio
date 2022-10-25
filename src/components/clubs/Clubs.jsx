@@ -5,6 +5,7 @@ import { Pagination, Autoplay } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import HackaBull from '../../assets/hackabull.png'
+import MSA from '../../assets/MSA.png'
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -26,7 +27,7 @@ const data=[
     id:3,
     title:'MSA USF',
     position:"Jummah Coordinator, August 2022- Present",
-    image:"https://scontent.ftpa1-1.fna.fbcdn.net/v/t1.6435-9/34660003_1828210337217198_249448513685946368_n.png?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=VHpldz1BykoAX_20GZI&_nc_ht=scontent.ftpa1-1.fna&oh=00_AT-EeZpd_DVdHrDVF9irziFFiTiIR94358XxfgDAYrPenQ&oe=634B36DA"
+    image: MSA
   },
   {
     id:4,

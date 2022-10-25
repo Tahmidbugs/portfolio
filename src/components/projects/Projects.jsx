@@ -3,7 +3,7 @@ import React from 'react'
 import './projects.css'
 import UBER from "../../assets/ubereats.png";
 import INSTAGRAM from '../../assets/instagram.jpg';
-import DISCORD from '../../assets/discord.jpg';
+import DISCORD from '../../assets/discord.png';
 import HOPELESS from '../../assets/hopeless-less.png';
 import DEBUG from '../../assets/DEBUG.png';
 import LIGHT from '../../assets/light.png';

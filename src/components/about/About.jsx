@@ -25,7 +25,7 @@ const About = () => {
         <article className='about__card'>
             <FaAward className='about__icon'/>
             <h5>Experience</h5>
-            <small>Ta, Program Design, USF </small>
+            <small>TA, Program Design, USF </small>
             
           </article>
           <article className='about__card'>
@@ -37,11 +37,11 @@ const About = () => {
           <article className='about__card'>
             <VscFolderLibrary className='about__icon'/>
             <h5>Projects</h5>
-            <small>Majoring in Computer Science at USF</small>
+            <small>Web App, Mobile App and more</small>
           </article>
         </div>
         <p>
-          Hello there! My name is Tahmid and I like cats...Now that we are done with the important bit, I am a Junior at the University of South Florida majoring in Computer Science. I am currently working as a TA for Program Design at USF. I starve for new knowledge in the realm of programming and I am currently on the lookout for summer internships.
+          Hello there! My name is Tahmid and I like cats...Now that we are done with the important bit, I am a Junior at the University of South Florida majoring in Computer Science. I am currently the TA for Program Design. I starve for new knowledge in the realm of programming and I am currently on the lookout for summer internships.
         </p>
         <a href="#contact" className='btn btn-primary'>Let's Chat</a>
       </div>
